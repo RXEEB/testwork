@@ -1,0 +1,70 @@
+.container{
+    margin-top: 20px;
+}
+.input{
+    margin-top: 20px;
+    border:none;
+    background-color:white;
+    width: 100%;
+    height: 36px;
+    border-radius: 10px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+input:focus::placeholder {
+    color: transparent;
+  }
+  .label{
+      color:white;
+  }
+.photoDrop{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    
+    
+    
+    background-color: #767680;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+.dropApp{
+    margin-top: 20px;
+    width: 100%;
+}
+.imgPreview{
+    border: 1px solid white;
+}
+.dropIn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 343px;
+    height: 36px;;
+    border: 2px dashed white;
+}
+.dropArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    height: 36px;
+    background-color: #767680;
+}
+.link{
+    margin-left: 20px;
+}
+.img{
+    width: 300px;
+    border-radius: 10px;
+
+}
